@@ -1,13 +1,13 @@
-def minion_game(value):
+def minion_game(string):
     kevin = 0
     student = 0
-    # English vowels in lower and upper cases  
+    # English vowels in lower and upper cases 
     vow="AaEeIiOoUu"
-    for i in range(len(value)):
-        if value[i] in vow:
-            kevin = kevin + len(value) -i
+    for i in range(len(string)):
+        if string[i] in vow:
+            kevin = kevin + len(string) -i
         else:
-            student = student + len(value) -i    
+            student = student + len(string) -i    
     
     if kevin > student:
         print(f'Kevin {kevin}')
@@ -16,8 +16,7 @@ def minion_game(value):
         print(f'Stuart {student}') 
 
     else:
-        print("Draw")           
-
+        print("Draw")    
 
 if __name__ == '__main__':
     s = input()
