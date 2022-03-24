@@ -16,7 +16,7 @@ def minion_game(value):
         print(f'Stuart {student}') 
 
     else:
-        print("Same")           
+        print("Draw")           
 
 
 if __name__ == '__main__':
