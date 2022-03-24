@@ -5,9 +5,9 @@ def minion_game(string):
     vow="AaEeIiOoUu"
     for i in range(len(string)):
         if string[i] in vow:
-            kevin = kevin + len(string) -i
+            kevin += len(string) -i
         else:
-            student = student + len(string) -i    
+            student += len(string) -i    
     
     if kevin > student:
         print(f'Kevin {kevin}')
