@@ -8,14 +8,12 @@ def minion_game(string):
         else:
             student += len(string) -i    
     
-    if kevin > student:
-        print(f'Kevin {kevin}')
-       
-    elif student > kevin:
-        print(f'Stuart {student}') 
-
-    else:
+    winer = [kevin, student]
+    if kevin == student:
         print("Draw")
+    else:    
+        print(f'Kevin {max(winer)}' if kevin > student \
+        else f'Stuart {max(winer)}')
 
 if __name__ == '__main__':
     s = input()
