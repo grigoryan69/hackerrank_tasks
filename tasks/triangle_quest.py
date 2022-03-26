@@ -1,3 +1,2 @@
-if __name__ == '__main__':
-	for x in range(1, int(input()) + 1):
-	    print((10 ** x // 9) ** 2)
+for i in range(1,int(input())):
+	print(i * (10 ** i - 1) // 9)
