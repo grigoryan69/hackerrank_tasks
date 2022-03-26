@@ -1,4 +1,5 @@
-def no_idea():	
+# no idea
+def no_idea():
 	happiness = 0
 	n, m = map(int, input().strip().split(' '))
 	arr = list(map(int, input().strip().split(' ')))
