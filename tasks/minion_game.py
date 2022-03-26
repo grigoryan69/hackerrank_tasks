@@ -2,9 +2,8 @@ def minion_game(string):
     kevin = 0
     student = 0
     # English vowels in lower and upper cases 
-    vow="AaEeIiOoUu"
     for i in range(len(string)):
-        if string[i] in vow:
+        if string[i].lower() in "aeiou":
             kevin += len(string) -i
         else:
             student += len(string) -i    
@@ -16,7 +15,7 @@ def minion_game(string):
         print(f'Stuart {student}') 
 
     else:
-        print("Draw")    
+        print("Draw")
 
 if __name__ == '__main__':
     s = input()
