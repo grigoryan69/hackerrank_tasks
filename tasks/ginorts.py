@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import re
 S = input()
 series="[a-z]","[A-Z]","[13579]","[02468]"
