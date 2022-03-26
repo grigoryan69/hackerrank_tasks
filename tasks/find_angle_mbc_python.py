@@ -3,7 +3,7 @@ import math
 def find_angle_mbc_python(a, b):
 	M = math.sqrt(a**2+b**2)
 	theta = math.acos(b / M)
-	print(f'{round(math.degrees(theta))}')
+	print(f'{round(math.degrees(theta))}°')
 
 
 if __name__ == '__main__':
